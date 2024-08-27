@@ -1,0 +1,22 @@
+.todo-container-div{
+    display: flex;
+    flex-direction: column;
+    border:1px solid red;
+    width: 31%;
+    height: 250px;
+    border-radius: 10px;
+    margin:5px;
+}
+
+.todo-container-div > div{
+    padding: 10px;
+}
+
+.taskMetin-Div{
+    overflow: auto;
+}
+
+.degisim-butonlari{
+    font-size: 20px;
+    cursor: pointer;
+}

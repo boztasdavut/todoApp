@@ -1,0 +1,19 @@
+.todo-create-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.todo-create-container > div{
+    padding: 5px;
+}
+
+textarea{
+    width: 75%;
+    height: 50px;
+    resize: none;
+}
+
+#todo-ekle-butonu{
+    font-size: 20px;
+    cursor: pointer;
+}
